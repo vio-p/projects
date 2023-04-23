@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Backend Source Files">
+      <UniqueIdentifier>{c245b048-1280-489f-a627-dfbc0feac038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Backend Header Files">
+      <UniqueIdentifier>{60ad9676-15a4-4b96-8874-c50e5dc2c947}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="MovieAppFE.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="MovieAppFE.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="MovieAppFE.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="MovieAppFE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Homepage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserPreferences.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserProfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoviePage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WishList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WatchedList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\Database.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\DbActor.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\DbCategory.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\DbCategoryCluster.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\DbCountry.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\DbDirector.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\DbShow.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\DbShowActor.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\DbShowCategory.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\DbShowCountry.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\DbShowDirector.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\DbShowTokens.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\DbUser.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\DbUserCategory.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\DbWatchedList.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\DbWishList.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\RecommendationGenerator.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\Show.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\User.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\UserBasedRG.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\ShowBasedRG.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MovieApp\MovieAppLogic.cpp">
+      <Filter>Source Files\Backend Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="RegisterF.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Homepage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="UserPreferences.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="UserProfile.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MoviePage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="WishList.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="WatchedList.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SearchPage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="RegisterF.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Homepage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="UserPreferences.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="UserProfile.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MoviePage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="WishList.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="WatchedList.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SearchPage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\MovieApp\Cluster.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\Database.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\DbActor.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\DbCategory.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\DbCategoryCluster.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\DbCountry.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\DbDirector.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\DbShowActor.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\DbShowCategory.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\DbShowCountry.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\DbShowDirector.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\DbShowTokens.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\DbUser.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\DbUserCategory.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\DbWatchedList.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\DbWishList.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\IRecommendationGenerator.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\KMeans.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\RecommendationGenerator.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\Show.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\ShowBasedRG.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\User.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\UserBasedRG.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MovieApp\MovieAppLogic.h">
+      <Filter>Header Files\Backend Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MovieApp.db">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="netflix_titles.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
